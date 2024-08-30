@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(253, 130, 7);
+  color: rgb(255, 255, 255);
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.home-content p {
+  line-height: 20px;
+  padding: 1rem;
+}
+
+.menu {
+  margin-bottom: 1.6rem;
+}
+
+.item-container * {
+  list-style: none;
+  margin: 0.8rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.item-container h3 {
+  font-size: 1.2rem;
+  margin-top: 1.4rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  text-align: center;
+}
+
+.contact-head {
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+.hours-head {
+  margin-top: 1rem;
+}

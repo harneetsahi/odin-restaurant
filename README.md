@@ -5,4 +5,6 @@ Created HTML elements dynamically through JS DOM. The projects manipulates diffe
 It shows a breakfast restaurant's website with tabs taking the user to the menu and contact page.
 
 # Languages
-- javascript - html - css
+- javascript
+- html
+- css
